@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<h1>Hello world!</h1>
+	<h1>Hello Metamodern!</h1>
 
 	<Counter />
 
@@ -12,6 +12,7 @@
 
 <style>
 	main {
+	  @apply bg-green-50;
 		text-align: center;
 		padding: 1em;
 		margin: 0 auto;
@@ -28,6 +29,7 @@
 	}
 
 	p {
+	  @apply text-red-400 underline;
 		max-width: 14rem;
 		margin: 2rem auto;
 		line-height: 1.35;
