@@ -1,24 +1,24 @@
 {
 	"name": "@metamodern/svelte-kit-starter",
 	"version": "0.0.1",
-  "description": "Metamodern Design's Svelte Kit Starter Project",
-  "author": "Metamodern Design",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/metamodern-design/svelte-kit-starter"
-  },
+	"description": "Metamodern Design's Svelte Kit Starter Project",
+	"author": "Metamodern Design",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/metamodern-design/svelte-kit-starter"
+	},
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"start": "svelte-kit start",
 		"lint": "eslint --ignore-path .gitignore .",
-    "test": "npm run build",
-    "sync": "git pull && git add . && git commit -m 'automated sync' && git push",
-    "merge:next": "git checkout master && git pull && git merge next -s recursive -Xtheirs",
-    "update": "updtr"
+		"test": "npm run build",
+		"sync": "git pull && git add . && git commit -m 'automated sync' && git push",
+		"merge:next": "git checkout master && git pull && git merge next -s recursive -Xtheirs",
+		"update": "updtr"
 	},
-  "dependencies": {},
+	"dependencies": {},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
@@ -31,10 +31,11 @@
 		"svelte": "^3.29.0",
 		"svelte-preprocess": "^4.7.0",
 		"tailwindcss": "^2.0.4",
+		"updtr": "^3.1.0",
 		"vite": "^2.1.0"
 	},
-  "type": "module",
-  "engines": {
-    "node": ">=14"
-  }
+	"type": "module",
+	"engines": {
+		"node": ">=14"
+	}
 }
