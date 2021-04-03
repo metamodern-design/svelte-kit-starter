@@ -1,6 +1,7 @@
-<script>
-  import '../lib/Tailwind.svelte';
-	import '../app.css';
-</script>
-
 <slot />
+
+<style global>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+</style>
