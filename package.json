@@ -9,8 +9,8 @@
 		"url": "https://github.com/metamodern-design/svelte-kit-starter"
 	},
 	"scripts": {
-		"dev": "svelte-kit dev -p 8080",
-		"build": "svelte-kit build",
+		"dev": "set NODE_ENV=development && svelte-kit dev -p 8080",
+		"build": "set NODE_ENV=production && svelte-kit build",
 		"start": "svelte-kit start -p 8080",
 		"lint": "eslint --ignore-path .gitignore .",
 		"test": "npm run build",
