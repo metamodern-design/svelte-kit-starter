@@ -15,3 +15,7 @@
   <Features />
   <CallToAction />
 </main>
+
+<footer>
+  <div class="w-full h-96 bg-gray-800"></div>
+</footer>
