@@ -6,7 +6,7 @@
   
 </script>
 
-<header class="mb-8">
+<header class="mb-32">
   <Banner />
   <Hero />
 </header>
@@ -15,6 +15,7 @@
   <Features />
 </main>
 
-<footer class="mt-8">
+<footer class="mt-32">
   <CallToAction />
+  <div class="w-full h-96 bg-gray-800"></div>
 </footer>
