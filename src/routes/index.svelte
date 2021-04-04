@@ -6,7 +6,15 @@
   
 </script>
 
-<Banner />
-<Hero />
-<Features />
-<CallToAction />
+<header class="mb-8">
+  <Banner />
+  <Hero />
+</header>
+
+<main>
+  <Features />
+</main>
+
+<footer class="mt-8">
+  <CallToAction />
+</footer>
